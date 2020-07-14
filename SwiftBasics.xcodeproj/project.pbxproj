@@ -16,6 +16,7 @@
 		148C239624BDABF500FFE744 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 148C239424BDABF500FFE744 /* LaunchScreen.storyboard */; };
 		148C23A124BDABF500FFE744 /* SwiftBasicsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148C23A024BDABF500FFE744 /* SwiftBasicsTests.swift */; };
 		148C23AC24BDABF500FFE744 /* SwiftBasicsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148C23AB24BDABF500FFE744 /* SwiftBasicsUITests.swift */; };
+		148C23BA24BDB6E400FFE744 /* Playgrount in Resources */ = {isa = PBXBuildFile; fileRef = 148C23B924BDB6E400FFE744 /* Playgrount */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		148C23A724BDABF500FFE744 /* SwiftBasicsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftBasicsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		148C23AB24BDABF500FFE744 /* SwiftBasicsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftBasicsUITests.swift; sourceTree = "<group>"; };
 		148C23AD24BDABF500FFE744 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		148C23B924BDB6E400FFE744 /* Playgrount */ = {isa = PBXFileReference; lastKnownFileType = text; path = Playgrount; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				148C239724BDABF500FFE744 /* Info.plist */,
 				148C238A24BDABF400FFE744 /* SwiftBasics.xcdatamodeld */,
 				148C239124BDABF500FFE744 /* Preview Content */,
+				148C23B924BDB6E400FFE744 /* Playgrount */,
 			);
 			path = SwiftBasics;
 			sourceTree = "<group>";
@@ -246,6 +249,7 @@
 				148C239624BDABF500FFE744 /* LaunchScreen.storyboard in Resources */,
 				148C239324BDABF500FFE744 /* Preview Assets.xcassets in Resources */,
 				148C239024BDABF500FFE744 /* Assets.xcassets in Resources */,
+				148C23BA24BDB6E400FFE744 /* Playgrount in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,110 @@
+import UIKit
+
+var str = "Hello, playground"
+
+let constInt = 10
+
+str += " " + String(constInt)
+
+print(str + " \(constInt)")
+
+let array = [1,2,3]
+
+var newArray = [Int]()
+var newArray2: [Int] = []
+var newArray3: Array<Int> = []
+var newArray4 = Array<Int>()
+
+newArray.append(contentsOf: array)
+
+for value in newArray {
+    print(value)
+}
+
+for (index, value) in newArray.enumerated() {
+    newArray2.insert(value, at: index)
+}
+
+print(newArray2)
+
+for value in (0..<5).reversed() {
+    print(value)
+}
+
+var dictionary = ["key":12, "key2":13]
+print(dictionary)
+dictionary["key2"] = 14
+print(dictionary["key"] ?? 0)
+print(dictionary["key2"] ?? 0)
+
+if constInt > 10 {
+    print("more")
+}
+
+var optionalValue: Int?
+
+optionalValue = 5
+
+if let unwrapedOptionalValue = optionalValue {
+    newArray2.append(unwrapedOptionalValue + 5)
+    print(newArray2)
+}
+
+class SomeRootClass: SomeProtocol {
+    var someValue: Int = 10
+    
+    func sayHello() {
+        print("Hello")
+    }
+}
+
+protocol SomeProtocol {
+    //this var has get and set
+    var someValue: Int { get set}
+    
+    func sayHello()
+}
+
+class SomeClass: SomeRootClass {
+    var name: String = String()
+    var age: Int?
+    
+    //open
+    //public
+    //internal
+    //fileprivate
+    //private
+    
+    init(age: Int) {
+        self.age = age
+    }
+    
+    override func sayHello() {
+        super.sayHello()
+        print("Hello")
+    }
+    
+    func calculateSum(with x: Double, and y: Double) -> Double {
+        return x + y + 54
+    }
+}
+
+let someClassValue = SomeClass(age: 18)
+someClassValue.name = "Jack"
+someClassValue.sayHello()
+print(someClassValue.calculateSum(with: 5, and: 5))
+
+struct SomeStruct {
+    var field1: String
+    var field2: String
+}
+
+var myStruct = SomeStruct(field1: "first word", field2: "second word")
+
+//different types inside the array by using any identifier
+let arrayAny = [1,2,3, "asdf"] as [Any]
+
+//checks if the first element exists and tries to cast in to the int value
+if let firstValue = arrayAny.first as? Int {
+    print(firstValue)
+}
