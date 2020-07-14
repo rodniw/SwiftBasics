@@ -18,6 +18,7 @@
 		148C23AC24BDABF500FFE744 /* SwiftBasicsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148C23AB24BDABF500FFE744 /* SwiftBasicsUITests.swift */; };
 		148C23BA24BDB6E400FFE744 /* Playgrount in Resources */ = {isa = PBXBuildFile; fileRef = 148C23B924BDB6E400FFE744 /* Playgrount */; };
 		14BEA5F624BDD04500C98623 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BEA5F524BDD04500C98623 /* CircleImage.swift */; };
+		14BEA5F824BDFBCF00C98623 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BEA5F724BDFBCF00C98623 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		148C23AD24BDABF500FFE744 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		148C23B924BDB6E400FFE744 /* Playgrount */ = {isa = PBXFileReference; lastKnownFileType = text; path = Playgrount; sourceTree = "<group>"; };
 		14BEA5F524BDD04500C98623 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		14BEA5F724BDFBCF00C98623 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 				148C239124BDABF500FFE744 /* Preview Content */,
 				148C23B924BDB6E400FFE744 /* Playgrount */,
 				14BEA5F524BDD04500C98623 /* CircleImage.swift */,
+				14BEA5F724BDFBCF00C98623 /* MapView.swift */,
 			);
 			path = SwiftBasics;
 			sourceTree = "<group>";
@@ -278,6 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				148C238724BDABF400FFE744 /* AppDelegate.swift in Sources */,
+				14BEA5F824BDFBCF00C98623 /* MapView.swift in Sources */,
 				148C238C24BDABF400FFE744 /* SwiftBasics.xcdatamodeld in Sources */,
 				148C238E24BDABF400FFE744 /* ContentView.swift in Sources */,
 				148C238924BDABF400FFE744 /* SceneDelegate.swift in Sources */,
