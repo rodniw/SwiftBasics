@@ -88,7 +88,7 @@
 		148C23A224BDABF500FFE744 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		148C23A724BDABF500FFE744 /* SwiftBasicsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftBasicsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		148C23AB24BDABF500FFE744 /* SwiftBasicsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftBasicsUITests.swift; sourceTree = "<group>"; };
-		148C23AD24BDABF500FFE744 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		148C23AD24BDABF500FFE744 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = SwiftBasicsUITests/Info.plist; sourceTree = SOURCE_ROOT; };
 		148C23B924BDB6E400FFE744 /* Playgrount */ = {isa = PBXFileReference; lastKnownFileType = text; path = Playgrount; sourceTree = "<group>"; };
 		14BEA5F524BDD04500C98623 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		14BEA5F724BDFBCF00C98623 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
@@ -172,6 +172,7 @@
 				148C23B924BDB6E400FFE744 /* Playgrount */,
 				14BEA5F524BDD04500C98623 /* CircleImage.swift */,
 				14BEA5F724BDFBCF00C98623 /* MapView.swift */,
+				148C23AD24BDABF500FFE744 /* Info.plist */,
 			);
 			path = SwiftBasics;
 			sourceTree = "<group>";
@@ -197,7 +198,6 @@
 			isa = PBXGroup;
 			children = (
 				148C23AB24BDABF500FFE744 /* SwiftBasicsUITests.swift */,
-				148C23AD24BDABF500FFE744 /* Info.plist */,
 			);
 			path = SwiftBasicsUITests;
 			sourceTree = "<group>";
