@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		143235B524C0BCFA0035101E /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143235B424C0BCFA0035101E /* UserData.swift */; };
 		143D7B1924BF5BC400ED2D52 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143D7B1824BF5BC400ED2D52 /* LandmarkRow.swift */; };
 		143D7B1B24BF5BF200ED2D52 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143D7B1A24BF5BF200ED2D52 /* LandmarkList.swift */; };
 		143D7B2924BF5C1000ED2D52 /* chincoteague.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 143D7B1C24BF5C1000ED2D52 /* chincoteague.jpg */; };
@@ -57,6 +58,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		143235B424C0BCFA0035101E /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 		143D7B1824BF5BC400ED2D52 /* LandmarkRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
 		143D7B1A24BF5BF200ED2D52 /* LandmarkList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 		143D7B1C24BF5C1000ED2D52 /* chincoteague.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chincoteague.jpg; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 		148C237A24BDABF400FFE744 = {
 			isa = PBXGroup;
 			children = (
+				143235B424C0BCFA0035101E /* UserData.swift */,
 				148C238524BDABF400FFE744 /* SwiftBasics */,
 				148C239F24BDABF500FFE744 /* SwiftBasicsTests */,
 				148C23AA24BDABF500FFE744 /* SwiftBasicsUITests */,
@@ -353,6 +356,7 @@
 				14BEA5F824BDFBCF00C98623 /* MapView.swift in Sources */,
 				148C238C24BDABF400FFE744 /* SwiftBasics.xcdatamodeld in Sources */,
 				143D7B1B24BF5BF200ED2D52 /* LandmarkList.swift in Sources */,
+				143235B524C0BCFA0035101E /* UserData.swift in Sources */,
 				148C238E24BDABF400FFE744 /* LandmarkDetail.swift in Sources */,
 				143D7B3824BF5C2C00ED2D52 /* Landmark.swift in Sources */,
 				148C238924BDABF400FFE744 /* SceneDelegate.swift in Sources */,
