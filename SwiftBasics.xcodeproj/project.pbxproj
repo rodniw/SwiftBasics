@@ -25,6 +25,8 @@
 		143D7B3524BF5C1000ED2D52 /* umbagog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 143D7B2824BF5C1000ED2D52 /* umbagog.jpg */; };
 		143D7B3824BF5C2C00ED2D52 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143D7B3624BF5C2C00ED2D52 /* Landmark.swift */; };
 		143D7B3924BF5C2C00ED2D52 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143D7B3724BF5C2C00ED2D52 /* Data.swift */; };
+		144EC8F424C1E91C005A3858 /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144EC8F324C1E91C005A3858 /* Badge.swift */; };
+		144EC8F624C21A28005A3858 /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144EC8F524C21A28005A3858 /* HexagonParameters.swift */; };
 		148C238724BDABF400FFE744 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148C238624BDABF400FFE744 /* AppDelegate.swift */; };
 		148C238924BDABF400FFE744 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148C238824BDABF400FFE744 /* SceneDelegate.swift */; };
 		148C238C24BDABF400FFE744 /* SwiftBasics.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 148C238A24BDABF400FFE744 /* SwiftBasics.xcdatamodeld */; };
@@ -76,6 +78,8 @@
 		143D7B2824BF5C1000ED2D52 /* umbagog.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = umbagog.jpg; sourceTree = "<group>"; };
 		143D7B3624BF5C2C00ED2D52 /* Landmark.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 		143D7B3724BF5C2C00ED2D52 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		144EC8F324C1E91C005A3858 /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
+		144EC8F524C21A28005A3858 /* HexagonParameters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
 		148C238324BDABF400FFE744 /* SwiftBasics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftBasics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		148C238624BDABF400FFE744 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		148C238824BDABF400FFE744 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -145,6 +149,7 @@
 		148C238524BDABF400FFE744 /* SwiftBasics */ = {
 			isa = PBXGroup;
 			children = (
+				144EC8F524C21A28005A3858 /* HexagonParameters.swift */,
 				143235B424C0BCFA0035101E /* UserData.swift */,
 				143D7B3724BF5C2C00ED2D52 /* Data.swift */,
 				143D7B3624BF5C2C00ED2D52 /* Landmark.swift */,
@@ -176,6 +181,7 @@
 				14BEA5F524BDD04500C98623 /* CircleImage.swift */,
 				14BEA5F724BDFBCF00C98623 /* MapView.swift */,
 				148C23AD24BDABF500FFE744 /* Info.plist */,
+				144EC8F324C1E91C005A3858 /* Badge.swift */,
 			);
 			path = SwiftBasics;
 			sourceTree = "<group>";
@@ -352,6 +358,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				148C238724BDABF400FFE744 /* AppDelegate.swift in Sources */,
+				144EC8F424C1E91C005A3858 /* Badge.swift in Sources */,
 				143D7B3924BF5C2C00ED2D52 /* Data.swift in Sources */,
 				14BEA5F824BDFBCF00C98623 /* MapView.swift in Sources */,
 				148C238C24BDABF400FFE744 /* SwiftBasics.xcdatamodeld in Sources */,
@@ -359,6 +366,7 @@
 				143235B524C0BCFA0035101E /* UserData.swift in Sources */,
 				148C238E24BDABF400FFE744 /* LandmarkDetail.swift in Sources */,
 				143D7B3824BF5C2C00ED2D52 /* Landmark.swift in Sources */,
+				144EC8F624C21A28005A3858 /* HexagonParameters.swift in Sources */,
 				148C238924BDABF400FFE744 /* SceneDelegate.swift in Sources */,
 				143D7B1924BF5BC400ED2D52 /* LandmarkRow.swift in Sources */,
 				14BEA5F624BDD04500C98623 /* CircleImage.swift in Sources */,
